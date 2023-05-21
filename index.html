@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descubre el arte colombiano</title>
+
+    <link rel="stylesheet" href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+
+    <header class="header">
+
+      <a href="#" class="logo">
+        <img src="Imagenes/LogoArte.png" alt="Logo ArtedeCo">
+      </a>
+
+      <nav class="navbar">
+        <a href="#Cuadros">Cuadros</a>
+        <a href="#Escultura">Escultura</a>
+        <a href="#Artistas">Artistas</a>
+        <a href="#Ofertas">Ofertas</a>
+      </nav>
+
+      <div class="currency-menu-dropdown">
+        <img src="Imagenes/Flag_of_Colombia.jpg" alt="Bandera de Colombia"> ESP / COP
+        <label for="moneda"></label>
+          <select name="moneda" id="moneda">
+            <option value="1">USD</option>
+            <option value="2">COP</option>
+          </select>
+      </div>
+
+        <div class="icons">
+            <div class="fas fa-magnifying-glass" id="search-btn"></div>
+            <div class="fas fa-cart-shopping" id="cart-btn"></div>
+            <div class="fa-solid fa-bars" id="menu-btn"></div>
+        </div>
+
+        <div class="search-form">
+          <input type="search" id="search-box" placeholder="Buscar...">
+          <label for="search-box" class="fas fa-search"></label>
+        </div>
+
+        <div class="cart-items-container">
+          <div class="cart-item">
+            <span class="fa-solid fa-circle-xmark"></span>
+            <img src="Imagenes/Compra1.jpg" alt="Compra 1">
+            <div class="content">
+              <h3>Item 1 - Compra </h3>
+              <div class="price">$3'520.000</div>
+            </div>
+          </div>
+          <div class="cart-item">
+            <span class="fa-solid fa-circle-xmark"></span>
+            <img src="Imagenes/Compra2.jpg" alt="Compra 2">
+            <div class="content">
+              <h3>Item 2 - Compra </h3>
+              <div class="price">$2'780.000</div>
+            </div>
+          </div>
+
+          <a href="#" class="btn">Chekout now</a>
+        </div>
+
+        
+
+    </header>
+
+
+
+    <main>
+      <section id="slider-section">
+        <div class="container-slider">
+          <div class="slider" id="slider">
+            <div class="slider__section">
+              <img src="Imagenes/BannerImg1.jpg" alt="Imagen Banner 1"  class="slider__img">
+            </div>
+            <div class="slider__section">
+              <img src="Imagenes/BannerImg2.jpg" alt="Imagen Banner 2" class="slider__img">
+            </div>
+            <div class="slider__section">
+              <img src="Imagenes/BannerImg3.jpg" alt="Imagen Banner 3" class="slider__img">
+            </div>
+            <div class="slider__btn slider__btn--right" id="btn-right">&#62;</div>
+            <div class="slider__btn slider__btn--left" id="btn-left">&#60;</div>
+          </div>
+        </div>
+      </section>
+      
+
+      <section id="buttons-section">
+        <div class="list-buttons">
+          <a href="nuevasobras.html">NUEVAS OBRAS<span></span><span></span><span></span><span></span><span></span><span></span></a>
+          <a href="coleccionesdestacadas.html">COLECCIONES DESTACADAS<span></span><span></span><span></span><span></span><span></span><span></span></a>
+          <a href="artistasrelevantes.html">ARTISTAS RELEVANTES<span></span><span></span><span></span><span></span><span></span><span></span></a>
+          <a href="eventos.html">EVENTOS<span></span><span></span><span></span><span></span><span></span><span></span></a>
+        </div>
+      </section>
+
+      <section id="final-section">
+        <div class="container-contenido">
+          <div class="columna1"> 
+          <div class="container-subscribe">
+            <img class="img-comunidad" src="Imagenes/Comunidad.jpg" alt="Comunidad">
+          <div class="comunidad-link"> 
+            <p>Únete a nuestra comunidad y apoya a los artistas emergentes
+            <a class="button-subscribe" href="suscribirse.html">SUSCRIBIRSE</a></p>
+          </div>
+          </div>
+
+          <div class="container-artwork-day"> 
+            <div class="titulo-artwork">
+              <p class="text-artwork">OBRA DEL DIA</p> 
+            </div>
+            <div class="container-imagenartworkday"> 
+              <img class="img-artwork"  src="Imagenes/ObraDia2.jpg" alt="Obra del dia">
+            </div>
+
+            <div class="description-artwork-day">
+              <h3>Artista</h3>
+              <p>Will Jones</p>
+              <h3>Técnica</h3>
+              <p>Óleo</p>
+              <h3>Referencia</h3>
+              <p>COL1301</p>
+            </div>
+          </div>
+          </div>
+          
+          <div class="columna2"> 
+          <div class="container-eventos">
+            <h2>EVENTOS ESPECIALES</h2>
+            <h4>El pasado 10 de Febrero se presentó la exposición "Sincronismos"</h4>
+            <p>El maestro Édgar Malagón, egresado del programa de Artes, fue el encargado de abrir una de las once exposiciones de arte.</p>
+            <a href="#">Mirar video</a>
+              <div class="container-video">
+                  <video src="Imagenes/GaleriaArteVala.mp4" controls></video>
+              </div>
+          </div>
+        </div>  
+        </div>
+
+        <div class="container-end-buttons">
+          <a class="boton-final" href="comprar.html">COMPRAR</a>
+          <a class="boton-final" href="reservar.html">RESERVAR</a>
+        </div>
+
+      </section>
+    </main>
+
+    <footer>
+      <div id="footer_content">
+        <div id="footer_contacts">
+          <img src="Imagenes/LogoArte.png" alt="Logo ArtedeCo">
+          <p>Descubre el arte colombiano</p>
+
+          <div id="footer_social_media">
+            <a href="#" class="footer-link" id="instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="footer-link" id="facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" class="footer-link" id="twitter"><i class="fa-brands fa-twitter"></i></a>
+          </div>
+        </div>
+
+        <ul class="footer-list">
+          <li><h3>Contacto</h3></li>
+          <li><a href="#" class="footer-link">3220221155</a></li>
+          <li><a href="#" class="footer-link">artapp@gmail.com</a></li>
+        </ul>
+
+        <ul class="footer-list">
+          <li><h3>Preguntas Frecuentes</h3></li>
+          <li><a href="#" class="footer-link">¿Cómo vendo mi obra de arte?</a></li> 
+          <li><a href="#" class="footer-link">¿Tienen obras en gran formato?</a></li>
+          <li><a href="#" class="footer-link">¿Cómo reservo una obra de arte?</a></li>
+        </ul>
+
+        <div id="footer_subscribe">
+          <h3>Subscribete</h3>
+          <p>Ingresa tu e-mail para recibir notificaciones sobre nuestras ofertas.</p>
+          <div id="input_group">
+            <input type="email" placeholder="Escribe tu correo electronico..." required id="email">
+            <button><i class="fa-regular fa-envelope"></i></button>
+          </div>
+        </div>
+      </div>
+
+      <div id="footer_copyright">
+        &#169
+        Código realizado por Bryan Rangel | Todos los derechos reservados | Politica de manejo de datos | Términos y condiciones </p> 
+      </div>
+    </footer>
+
+    <script src="slider.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+  </body>
+
+</html>
